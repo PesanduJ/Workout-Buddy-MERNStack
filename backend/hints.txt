@@ -1,0 +1,19 @@
+#Setup:
+
+Create server.js
+Then goto back end  > cd backend
+Create the package.json to keep track of dependancies and also cutom scrips > npm init -y
+Install express package > npm install express
+Intall nodemon  package globally > npm install -g nodemon ,what this do is when you make a change toa file it re-runs the program and also u have to use nodemon server.js instead of node server.js when running
+Create devscript in package.json after start keyword > "dev": "nodemon server.js", so now when i type npm run dev it's gonna do exactly what nodemon server.js do
+Intall .env package to secure sensitive data in code > npm install dotenv
+Install mongoose package > npm install mongoose                                 (ODM library(Object Data Modelling))
+
+
+
+
+#Todo:
+
+Import express package in server.js
+Import dotenv in server.js, put sensitive data into .env file
+Put mongodb connection string in .env file
